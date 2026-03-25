@@ -7,4 +7,4 @@ After this we extend the code to 2D and implement immersed boundary method.
 -Aditya Kini
 
 
-I have added the gnu-plot changes everyone have a look once i think there is a issue in the density plot may be issue with the dat file i will try to rectify that everyone have a look once - Aditya Kumar
+I have added the gnu-plot changes for only shock-tube everyone have a look once i think there is a issue in the density plot may be issue with the dat file i will try to rectify that everyone have a look once - Aditya Kumar
