@@ -8,3 +8,11 @@ After this we extend the code to 2D and implement immersed boundary method.
 
 
 I have added the gnu-plot changes for only shock-tube everyone have a look once i think there is a issue in the density plot may be issue with the dat file i will try to rectify that everyone have a look once - Aditya Kumar
+
+
+
+
+I have added 2D code. Archit, Jaga and Aditya Kumar, I want you guys to validate the 2D code for Wedge angles of 10 15 20 degrees for mesh sizes of 300x300,500x500,1000x1000. Be sure to change the sampling points in geometry.cpp appropriately. I would suggest doing it in CADlab as it took a while to run on my computer. In VS studio go to main.cpp and press f5 to compile all together. No need to change inlet mach number.
+
+For results I want the following: Mach number contours, and pressure contours. Also I want you guys to measure the shock angle and cross verify shock angle,pressure and mach numbers by theta- beta -M tables from last sem gas tables. In the contours be sure to demarcate the wedge properly in the final image.
+-Aditya Kini
