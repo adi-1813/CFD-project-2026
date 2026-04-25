@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build and Run 2D Solver",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\program.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "preLaunchTask": "Build 2D Solver"
+        }
+    ]
+}
