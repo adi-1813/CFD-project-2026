@@ -10,6 +10,8 @@
                 "/EHsc",
                 "/std:c++17",
                 "/nologo",
+                "/openmp:llvm",
+                "/O2",
                 "/Fe${fileDirname}\\program.exe",
                 "${fileDirname}\\main.cpp",
                 "${fileDirname}\\geometry.cpp",
@@ -20,14 +22,10 @@
                 "cwd": "${fileDirname}",
                 "shell": {
                     "executable": "cmd.exe",
-                    "args": [
-                        "/c"
-                    ]
+                    "args": ["/c"]
                 }
             },
-            "problemMatcher": [
-                "$msCompile"
-            ],
+            "problemMatcher": ["$msCompile"],
             "group": {
                 "kind": "build",
                 "isDefault": false
@@ -42,9 +40,7 @@
                 "cwd": "${fileDirname}",
                 "shell": {
                     "executable": "cmd.exe",
-                    "args": [
-                        "/c"
-                    ]
+                    "args": ["/c"]
                 }
             },
             "problemMatcher": [],
@@ -67,9 +63,7 @@
             "options": {
                 "cwd": "${fileDirname}"
             },
-            "problemMatcher": [
-                "$msCompile"
-            ],
+            "problemMatcher": ["$msCompile"],
             "group": {
                 "kind": "build",
                 "isDefault": true
